@@ -1,0 +1,28 @@
+{
+  "name": "mqtt-subscriber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "serve": "rm -rf npm-debug.log.* log/combined*.log log/combined*.log.* && node dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "mqtt": "^2.18.8",
+    "sendgrid": "^5.2.3",
+    "shelljs": "^0.8.2",
+    "winston": "^3.1.0",
+    "winston-daily-rotate-file": "^3.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-arrow-functions": "^7.0.0",
+    "@babel/preset-env": "^7.1.0"
+  }
+}
