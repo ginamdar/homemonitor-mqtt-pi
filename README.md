@@ -9,7 +9,7 @@ need to monitor. In notification section for each field you can customize to do 
 ``` 
 notification: [{
                 eq: 'open',
-                types:['alexa'],
+                types:['alexa', 'email', 'google-home'],
                 routine: 'default'
             }],
 ``` 
