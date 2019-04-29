@@ -79,7 +79,7 @@ sudo service start {{your-service-name}}
 
 ### Invoking Alexa Routines
 You can use below scripts (3rd party support) to invoke alexa routies for making custom Alexa announcements and Mobile notifications. Since Alexa Notifications are somewhat different in nature, [see here](https://developer.amazon.com/docs/alexa-voice-service/notifications-overview.html), routine is quickest way to trigger different actions.
-For e.g. if your Temperature Monitor sensor detects drop below 10 degree celcius, you can invoke alexa routine to automatically start your Nest heating. All you need to do is create a routine like below and provide the routine name in above in feeds-action.js
+For e.g. if your Temperature Monitor sensor detects drop below 10 degree Celsius, you can invoke alexa routine to automatically start your Nest heating. All you need to do is create a routine like below and provide the routine name in feeds-action.js
 ![Basement Temperature Low](https://github.com/ginamdar/homemonitor-mqtt-pi/blob/master/Alexa-Routine.png)
 
 ## 3rd party support
@@ -94,6 +94,6 @@ in my gmail account to make Gmail to realize this is legitimate email!.
 * To install this as a service on your Pi I am using this [forever-service](https://github.com/zapty/forever-service) 
 
 ## Hardware
-* You can design your own temperature / humidity logger, I made my own using ESP8266 and DHT22. The logger is highly efficient on single Li-Ion battery. I have two of them running for past 6 months without battery replacement and recording data for every 1:30-1:40 minutes. Since I am not too concern of temperature fluctionations inside the house every 1:30 min or 2 is fine. 
+* You can design your own temperature / humidity logger, I made my own using ESP8266 and DHT22. The logger is highly efficient on single Li-Ion battery. I have two of them running for past ~6 months without battery replacement and recording data for every 1:30-1:40 minutes. Since I am not too concern of temperature fluctuations inside the house every 1:30 min or 2 is fine. 
 
 ![dht-logger](https://github.com/ginamdar/homemonitor-mqtt-pi/blob/master/dht-esp8266-sensor.svg)
