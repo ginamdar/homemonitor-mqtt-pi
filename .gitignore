@@ -1,0 +1,12 @@
+node_modules/
+dist/
+log/
+.idea/
+.DS_Store/
+*.swp
+**.vim
+npm-debug.log
+.idea
+dump/
+.DS_Store
+tags
